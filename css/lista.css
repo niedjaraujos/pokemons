@@ -1,0 +1,29 @@
+aside {
+    max-width: 200px;
+}
+
+.pokelist {
+    background-color: #6B727A;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: 60px;
+    cursor: pointer;
+    padding: 0 20px 0 15px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2)
+    0px 7px 29px 0px;
+}
+.pokelist:hover{
+    transform: scale(1.05);
+    background-color: #fc4848;
+    transition: 0.30s ease-in-out;
+}
+
+.pokelist img {
+    width: 25%;
+    border-radius: 50%;
+}
