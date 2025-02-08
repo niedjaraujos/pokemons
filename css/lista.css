@@ -19,11 +19,15 @@ aside {
 }
 .pokelist:hover{
     transform: scale(1.05);
-    background-color: #fc4848;
+
     transition: 0.30s ease-in-out;
 }
 
 .pokelist img {
     width: 25%;
     border-radius: 50%;
+}
+
+.ativo{
+    background-color: #fc4848;
 }

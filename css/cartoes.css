@@ -4,7 +4,7 @@
     0px 7px 29px 0px;
     border-radius: 10px;
 }
-.cartao-pokemon.ativo {
+.cartao-pokemon.aberto {
     display: block;
 }
 .cartao-topo {
